@@ -3,8 +3,7 @@ import numpy as np
 from tensorflow.keras.models import load_model
 from PIL import Image
 
-# Path to the trained MobileNet model
-MODEL_PATH = "/Users/dishita.tank/Desktop/Jute_Pest_Dataset/mobilenet_model.h5"
+MODEL_PATH = "mobilenet_m.h5"  # If in the same directory as app.py
 
 # Load the trained model
 model = load_model(MODEL_PATH)
