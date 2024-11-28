@@ -3,7 +3,7 @@ import numpy as np
 from tensorflow.keras.models import load_model
 from PIL import Image
 
-MODEL_PATH = "mobilenet_m.h5"  # If in the same directory as app.py
+MODEL_PATH = "mobilenet_model.h5"  # If in the same directory as app.py
 
 # Load the trained model
 model = load_model(MODEL_PATH)
